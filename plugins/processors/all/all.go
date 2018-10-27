@@ -1,6 +1,7 @@
 package all
 
 import (
+	_ "github.com/influxdata/telegraf/plugins/processors/concat"
 	_ "github.com/influxdata/telegraf/plugins/processors/converter"
 	_ "github.com/influxdata/telegraf/plugins/processors/enum"
 	_ "github.com/influxdata/telegraf/plugins/processors/override"
